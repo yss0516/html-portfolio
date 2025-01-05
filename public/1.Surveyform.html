@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Korea for Foreigner</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="1.Surveyform.css">
+    </head>
+    <body>
+        <h1 id="title">Korea for Foreigner Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <fieldset><!-- 'pi' stands for 'personal information'-->
+            <label id="name-label">1. Name:
+            <input id="name" class="pi" type="text" placeholder="Enter your name" required>
+            </label>
+            <label id="email-label">2. Email:
+            <input id="email" class="pi" type="email" placeholder="Enter your Email" required>
+            </label>
+            <label id="number-label">3. Age(optional):
+            <input id="number" class="pi" type="number" placeholder="Enter your age" min="5" max="110" required>
+            </label>
+            <label id="dorpdown-label">4. Continent:
+            <select id="dropdown">
+                <option>(select one)</option>
+                <option value="asia">Asia</option>
+                <option value="africa">Africa</option>
+                <option value="australia">Australia</option>
+                <option value="europe">Europe</option>
+                <option value="north america">North America</option>
+                <option value="south america">South America</option>
+            </select>
+            </label>
+            </fieldset>
+            <fieldset>
+            <label id="radio-label">5. How much do you know about Korean-Language:<br>
+                <input type="radio" name="language" value="advanced"> Advanced<br>
+                <input type="radio" name="language" value="intermediate"> Intermediate<br>
+                <input type="radio" name="language" value="beginner"> Beginner<br>
+                <input type="radio" name="language" value="not-at-all"> Not at all
+            </label>
+            <label>6. Which things are you interested in Korea:<br>
+                <input type="checkbox" value="adventure"> Adventure<br>
+                <input type="checkbox" value="culture"> Culture<br>
+                <input type="checkbox" value="food"> Food<br>
+                <input type="checkbox" value="economy"> Economy<br>
+                <input type="checkbox" value="work"> Work
+            </label>
+            <label>7. Any comments or suggestion?(optional)
+                <textarea rows="3" cols="30"  placeholder="Enter your comment here"></textarea>
+            </label>
+            </fieldset>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </body>
+</html>

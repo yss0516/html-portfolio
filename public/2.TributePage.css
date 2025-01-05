@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+main {
+    background-color: #e8e9eb;
+    padding: 1em;
+}
+.undertitle {
+    margin: 0;
+}
+figure {
+    background-color: white;
+    padding: 1em;
+}
+#image {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+ul {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+li {
+    font-weight: bold;
+}
+.description {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+#footer {
+    font-style: italic;
+    margin-top: 2em;
+}
